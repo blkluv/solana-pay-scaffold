@@ -15,10 +15,10 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Solana Pay Scaffold</title>
+        <title>Sol Pay</title>
         <meta
-          name="description"
-          content="Solana Pay Scaffold"
+          name="The easiest method of paying with $SOL"
+          content="Sol Pay"
         />
       </Head>
 

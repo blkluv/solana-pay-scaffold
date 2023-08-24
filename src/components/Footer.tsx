@@ -49,15 +49,15 @@ export const Footer: FC = () => {
         <div className="grid-flow-col gap-4 text-center pr-2">
           <div>
             <p className="text-white text-base font-light cursor-default ">
-              Powered by
+              Made With
             </p>
             <a
               rel="noreferrer"
-              href="https://solana.com/"
+              href="https://luvnft.com/"
               target="_blank"
               className="text-white text-base font-bold hover:text-primary-dark transition-all duration-200"
             >
-              Solana
+              LUV NFT
             </a>
           </div>
         </div>
