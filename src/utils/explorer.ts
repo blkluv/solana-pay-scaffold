@@ -13,10 +13,14 @@ export function getExplorerUrl(
       )}`
     } else if (endpoint === 'https://api.devnet.solana.com') {
       cluster = 'devnet'
+    } else if (endpoint === 'https://api.mainnet.solana.com') {
+      cluster = 'mainnet'
     }
 
     return cluster ? `?cluster=${cluster}` : ''
   }
 
-  return `https://explorer.solana.com/${itemType}/${viewTypeOrItemAddress}${getClusterUrlParam()}`
+  const domain = 'https://solpay.luvnft.com'; // Add your domain here
+
+  return `${domain}/${itemType}/${viewTypeOrItemAddress}${getClusterUrlParam()}`
 }
